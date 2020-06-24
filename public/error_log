@@ -1,0 +1,228 @@
+[22-Jan-2019 17:50:43 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 500
+[22-Jan-2019 17:53:19 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 500
+[22-Jan-2019 17:53:21 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 500
+[22-Jan-2019 17:53:21 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 500
+[22-Jan-2019 17:53:25 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 500
+[22-Jan-2019 17:53:28 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 500
+[17-May-2019 07:57:19 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array)
+#3 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(735): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#4 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(264): Illuminate\Foundation\Application->make('App\\Http\\Kernel', Array)
+#5 /home/calzadop/public_html/ven in /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[17-May-2019 07:57:33 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array)
+#3 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(735): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#4 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(264): Illuminate\Foundation\Application->make('App\\Http\\Kernel', Array)
+#5 /home/calzadop/public_html/ven in /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[17-May-2019 07:57:35 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array)
+#3 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(735): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#4 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(264): Illuminate\Foundation\Application->make('App\\Http\\Kernel', Array)
+#5 /home/calzadop/public_html/ven in /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[17-May-2019 07:59:15 UTC] PHP Warning:  include(/home/calzadop/public_html/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/calzadop/public_html/vendor/composer/ClassLoader.php on line 444
+[17-May-2019 07:59:15 UTC] PHP Warning:  include(): Failed opening '/home/calzadop/public_html/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/calzadop/public_html/vendor/composer/ClassLoader.php on line 444
+[17-May-2019 07:59:15 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array)
+#3 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(735): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#4 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(264): Illuminate\Foundation\Application->make('App\\Http\\Kernel', Array)
+#5 /home/calzadop/public_html/ven in /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[17-May-2019 07:59:19 UTC] PHP Warning:  include(/home/calzadop/public_html/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/calzadop/public_html/vendor/composer/ClassLoader.php on line 444
+[17-May-2019 07:59:19 UTC] PHP Warning:  include(): Failed opening '/home/calzadop/public_html/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/calzadop/public_html/vendor/composer/ClassLoader.php on line 444
+[17-May-2019 07:59:19 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array)
+#3 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(735): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#4 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(264): Illuminate\Foundation\Application->make('App\\Http\\Kernel', Array)
+#5 /home/calzadop/public_html/ven in /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[08-Nov-2019 03:35:09 UTC] PHP Warning:  require(/home/calzadop/public_html/vendor/composer/../markbaker/complex/classes/src/functions/abs.php): failed to open stream: No such file or directory in /home/calzadop/public_html/vendor/composer/autoload_real.php on line 66
+[08-Nov-2019 03:35:09 UTC] PHP Fatal error:  require(): Failed opening required '/home/calzadop/public_html/vendor/composer/../markbaker/complex/classes/src/functions/abs.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/calzadop/public_html/vendor/composer/autoload_real.php on line 66
+[07-Nov-2019 21:49:59 America/Mexico_City] PHP Fatal error:  Uncaught ReflectionException: Class translator does not exist in /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('translator')
+#1 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('translator')
+#2 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('translator', Array)
+#3 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(735): Illuminate\Container\Container->make('translator', Array)
+#4 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(121): Illuminate\Foundation\Application->make('translator', Array)
+#5 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Foun in /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[07-Nov-2019 21:50:10 America/Mexico_City] PHP Fatal error:  Uncaught ReflectionException: Class translator does not exist in /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('translator')
+#1 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('translator')
+#2 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('translator', Array)
+#3 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(735): Illuminate\Container\Container->make('translator', Array)
+#4 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(121): Illuminate\Foundation\Application->make('translator', Array)
+#5 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Foun in /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[07-Nov-2019 21:50:23 America/Mexico_City] PHP Fatal error:  Uncaught ReflectionException: Class translator does not exist in /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('translator')
+#1 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('translator')
+#2 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('translator', Array)
+#3 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(735): Illuminate\Container\Container->make('translator', Array)
+#4 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(121): Illuminate\Foundation\Application->make('translator', Array)
+#5 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Foun in /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[07-Nov-2019 21:50:29 America/Mexico_City] PHP Fatal error:  Uncaught ReflectionException: Class translator does not exist in /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('translator')
+#1 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('translator')
+#2 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('translator', Array)
+#3 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(735): Illuminate\Container\Container->make('translator', Array)
+#4 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(121): Illuminate\Foundation\Application->make('translator', Array)
+#5 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Foun in /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[07-Nov-2019 21:50:32 America/Mexico_City] PHP Fatal error:  Uncaught ReflectionException: Class translator does not exist in /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('translator')
+#1 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('translator')
+#2 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('translator', Array)
+#3 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(735): Illuminate\Container\Container->make('translator', Array)
+#4 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(121): Illuminate\Foundation\Application->make('translator', Array)
+#5 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Foun in /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[07-Nov-2019 21:50:33 America/Mexico_City] PHP Fatal error:  Uncaught ReflectionException: Class translator does not exist in /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('translator')
+#1 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('translator')
+#2 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('translator', Array)
+#3 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(735): Illuminate\Container\Container->make('translator', Array)
+#4 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(121): Illuminate\Foundation\Application->make('translator', Array)
+#5 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Foun in /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[07-Nov-2019 21:50:39 America/Mexico_City] PHP Fatal error:  Uncaught ReflectionException: Class translator does not exist in /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('translator')
+#1 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('translator')
+#2 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('translator', Array)
+#3 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(735): Illuminate\Container\Container->make('translator', Array)
+#4 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(121): Illuminate\Foundation\Application->make('translator', Array)
+#5 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Foun in /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[07-Nov-2019 21:50:43 America/Mexico_City] PHP Fatal error:  Uncaught ReflectionException: Class translator does not exist in /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('translator')
+#1 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('translator')
+#2 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('translator', Array)
+#3 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(735): Illuminate\Container\Container->make('translator', Array)
+#4 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(121): Illuminate\Foundation\Application->make('translator', Array)
+#5 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Foun in /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[07-Nov-2019 21:50:44 America/Mexico_City] PHP Fatal error:  Uncaught ReflectionException: Class translator does not exist in /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('translator')
+#1 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('translator')
+#2 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('translator', Array)
+#3 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(735): Illuminate\Container\Container->make('translator', Array)
+#4 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(121): Illuminate\Foundation\Application->make('translator', Array)
+#5 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Foun in /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[07-Nov-2019 21:50:45 America/Mexico_City] PHP Fatal error:  Uncaught ReflectionException: Class translator does not exist in /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('translator')
+#1 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('translator')
+#2 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('translator', Array)
+#3 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(735): Illuminate\Container\Container->make('translator', Array)
+#4 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(121): Illuminate\Foundation\Application->make('translator', Array)
+#5 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Foun in /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[07-Nov-2019 21:50:46 America/Mexico_City] PHP Fatal error:  Uncaught ReflectionException: Class translator does not exist in /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('translator')
+#1 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('translator')
+#2 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('translator', Array)
+#3 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(735): Illuminate\Container\Container->make('translator', Array)
+#4 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(121): Illuminate\Foundation\Application->make('translator', Array)
+#5 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Foun in /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[07-Nov-2019 21:50:52 America/Mexico_City] PHP Fatal error:  Uncaught ReflectionException: Class translator does not exist in /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('translator')
+#1 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('translator')
+#2 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('translator', Array)
+#3 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(735): Illuminate\Container\Container->make('translator', Array)
+#4 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(121): Illuminate\Foundation\Application->make('translator', Array)
+#5 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Foun in /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[07-Nov-2019 21:50:53 America/Mexico_City] PHP Fatal error:  Uncaught ReflectionException: Class translator does not exist in /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('translator')
+#1 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('translator')
+#2 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('translator', Array)
+#3 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(735): Illuminate\Container\Container->make('translator', Array)
+#4 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(121): Illuminate\Foundation\Application->make('translator', Array)
+#5 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Foun in /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[07-Nov-2019 21:50:54 America/Mexico_City] PHP Fatal error:  Uncaught ReflectionException: Class translator does not exist in /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('translator')
+#1 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('translator')
+#2 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('translator', Array)
+#3 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(735): Illuminate\Container\Container->make('translator', Array)
+#4 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(121): Illuminate\Foundation\Application->make('translator', Array)
+#5 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Foun in /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[07-Nov-2019 21:51:21 America/Mexico_City] PHP Fatal error:  Uncaught ReflectionException: Class translator does not exist in /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('translator')
+#1 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('translator')
+#2 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('translator', Array)
+#3 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(735): Illuminate\Container\Container->make('translator', Array)
+#4 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(121): Illuminate\Foundation\Application->make('translator', Array)
+#5 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Foun in /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[07-Nov-2019 21:51:23 America/Mexico_City] PHP Fatal error:  Uncaught ReflectionException: Class translator does not exist in /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('translator')
+#1 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('translator')
+#2 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('translator', Array)
+#3 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(735): Illuminate\Container\Container->make('translator', Array)
+#4 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(121): Illuminate\Foundation\Application->make('translator', Array)
+#5 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Foun in /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[07-Nov-2019 21:52:35 America/Mexico_City] PHP Fatal error:  Uncaught ReflectionException: Class translator does not exist in /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('translator')
+#1 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('translator')
+#2 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('translator', Array)
+#3 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(735): Illuminate\Container\Container->make('translator', Array)
+#4 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(121): Illuminate\Foundation\Application->make('translator', Array)
+#5 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Foun in /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[07-Nov-2019 21:52:35 America/Mexico_City] PHP Fatal error:  Uncaught ReflectionException: Class translator does not exist in /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('translator')
+#1 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('translator')
+#2 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('translator', Array)
+#3 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(735): Illuminate\Container\Container->make('translator', Array)
+#4 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(121): Illuminate\Foundation\Application->make('translator', Array)
+#5 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Foun in /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[07-Nov-2019 21:53:14 America/Mexico_City] PHP Fatal error:  Uncaught ReflectionException: Class translator does not exist in /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('translator')
+#1 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('translator')
+#2 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('translator', Array)
+#3 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(735): Illuminate\Container\Container->make('translator', Array)
+#4 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(121): Illuminate\Foundation\Application->make('translator', Array)
+#5 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Foun in /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[07-Nov-2019 21:54:03 America/Mexico_City] PHP Fatal error:  Uncaught ReflectionException: Class translator does not exist in /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('translator')
+#1 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('translator')
+#2 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('translator', Array)
+#3 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(735): Illuminate\Container\Container->make('translator', Array)
+#4 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(121): Illuminate\Foundation\Application->make('translator', Array)
+#5 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Foun in /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[07-Nov-2019 21:54:09 America/Mexico_City] PHP Fatal error:  Uncaught ReflectionException: Class translator does not exist in /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('translator')
+#1 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('translator')
+#2 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('translator', Array)
+#3 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(735): Illuminate\Container\Container->make('translator', Array)
+#4 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(121): Illuminate\Foundation\Application->make('translator', Array)
+#5 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Foun in /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
+[07-Nov-2019 21:56:30 America/Mexico_City] PHP Fatal error:  Uncaught ReflectionException: Class translator does not exist in /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:779
+Stack trace:
+#0 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(779): ReflectionClass->__construct('translator')
+#1 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('translator')
+#2 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('translator', Array)
+#3 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(735): Illuminate\Container\Container->make('translator', Array)
+#4 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(121): Illuminate\Foundation\Application->make('translator', Array)
+#5 /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Foun in /home/calzadop/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 779
